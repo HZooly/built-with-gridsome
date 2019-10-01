@@ -19,5 +19,8 @@ module.exports = {
         shouldPurgeUnusedKeyframes: true
       }
     }
-  ]
+  ],
+  templates: {
+    Project: '/project/:id'
+  }
 };

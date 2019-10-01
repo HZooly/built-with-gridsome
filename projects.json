@@ -1,18 +1,18 @@
 [
-	{
-		"id": 1,
-		"name": "Gridsome",
-		"description": "Gridsome official website",
-		"url": "https://gridsome.org",
-		"source": "https://github.com/gridsome/gridsome.org/",
-		"tags": ["documentation"]
-	},
-	{
-		"id": 2,
-		"name": "Built with Gridsome",
-		"description": "Showcase of projects built with Gridsome",
-		"url": "https://builtwithgridso.me",
-		"source": "https://github.com/HZooly/built-with-gridsome",
-		"tags": ["showcase"]
-	}
+  {
+    "id": 1,
+    "name": "Gridsome",
+    "description": "Gridsome official website",
+    "url": "https://gridsome.org",
+    "source": "https://github.com/gridsome/gridsome.org/",
+    "tags": ["documentation"]
+  },
+  {
+    "id": 2,
+    "name": "Built with Gridsome",
+    "description": "Showcase of projects built with Gridsome",
+    "url": "http://builtwithgrids.me",
+    "source": "https://github.com/HZooly/built-with-gridsome",
+    "tags": ["showcase"]
+  }
 ]
