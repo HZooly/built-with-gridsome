@@ -10,7 +10,22 @@
         <slot />
       </main>
     </div>
-    <footer class="bg-green-500 text-center py-2 text-white">Created by <a href="https://github.com/HZooly">@Zooly</a></footer>
+    <footer class="bg-green-500 flex justify-between py-2 text-white">
+      <div></div>
+      <div>
+        Created by
+        <a href="https://twitter.com/__Zooly">
+          Zooly
+          <font-awesome-icon :icon="['fab', 'twitter']" />
+        </a>
+      </div>
+      <div class="pr-4">
+        <a href="https://github.com/HZooly/built-with-gridsome">
+          Source
+          <font-awesome-icon :icon="['fab', 'github']" />
+        </a>
+      </div>
+    </footer>
   </div>
 </template>
 
