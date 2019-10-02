@@ -18,9 +18,15 @@ module.exports = {
         shouldTimeTravel: true,
         shouldPurgeUnusedKeyframes: true
       }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-63673840-4"
+      }
     }
   ],
   templates: {
-    Project: '/project/:id'
+    Project: "/project/:id"
   }
 };
