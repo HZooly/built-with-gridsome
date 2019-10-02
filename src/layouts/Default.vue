@@ -11,8 +11,7 @@
       </main>
     </div>
     <footer class="bg-green-500 flex justify-between py-2 text-white">
-      <div></div>
-      <div>
+      <div class="pl-4">
         Created by
         <a href="https://twitter.com/__Zooly">
           Zooly

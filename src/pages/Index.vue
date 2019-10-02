@@ -1,5 +1,10 @@
 <template>
   <Layout>
+    <div class="flex justify-end">
+      <button class="bg-green-500 text-white mx-4 py-2 px-3 shadow-lg rounded hover:bg-green-400">
+        <a href="https://github.com/HZooly/built-with-gridsome#add-a-project">Add your site</a>
+      </button>
+    </div>
     <div class="flex flex-wrap">
       <div
         v-for="project in $page.projects.edges"
