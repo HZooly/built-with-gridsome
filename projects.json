@@ -22,5 +22,13 @@
     "url": "https://atilacamurca.github.io/agregador-fc/",
     "source": "https://github.com/atilacamurca/agregador-fc",
     "tags": ["cartolafc", "fantasy soccer game", "statistics"]
+  },
+  {
+    "id": 4,
+    "name": "Martin Fracker, Jr.",
+    "description": "Display the projects Martin's worked on and promote his personal brand",
+    "url": "https://www.martinfrackerjr.com",
+    "source": "https://github.com/towerism/personal-site",
+    "tags": ["personal", "software", "javascript"]
   }
 ]
