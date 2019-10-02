@@ -8,14 +8,14 @@
   "dependencies": {
     "capture-website": "^0.4.0",
     "gridsome": "^0.7.0",
-    "tailwindcss": "^1.1.2"
-  },
-  "devDependencies": {
+    "tailwindcss": "^1.1.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-regular-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "@fortawesome/vue-fontawesome": "^0.1.7"
+  },
+  "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.26"
   }
 }
