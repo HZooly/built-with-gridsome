@@ -9,10 +9,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 
 import "~/assets/styles/main.css";
 
-config.autoAddCss = false;
 library.add(faGithub, faTwitter, faExternalLinkAlt, faFileCode);
-
-console.log(library);
 
 export default function(Vue, { router, head, isClient }) {
   Vue.component("font-awesome-icon", FontAwesomeIcon);

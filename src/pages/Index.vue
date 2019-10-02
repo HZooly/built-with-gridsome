@@ -16,23 +16,23 @@
             <div id="project-name" class="mx-4">
               <g-link :to="project.node.path">{{ project.node.name }}</g-link>
             </div>
-            <div class="mx-4 text-sm">
+            <div class="mx-2 flex">
               <a
                 v-if="project.node.source"
                 :href="project.node.source"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="mx-1 text-green-500"
+                class="mx-2 text-green-500"
               >
-                <font-awesome-icon :icon="['far', 'file-code']" />
+                <font-awesome-icon :icon="['far', 'file-code']" size="md" />
               </a>
               <a
                 :href="project.node.url"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="mx-1 text-green-500"
+                class="mx-2 text-green-500"
               >
-                <font-awesome-icon icon="external-link-alt" />
+                <font-awesome-icon icon="external-link-alt" size="md" />
               </a>
             </div>
           </div>
