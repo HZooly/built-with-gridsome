@@ -14,5 +14,13 @@
     "url": "http://builtwithgridso.me",
     "source": "https://github.com/HZooly/built-with-gridsome",
     "tags": ["showcase"]
+  },
+  {
+    "id": 3,
+    "name": "Agregador FC",
+    "description": "Website to help assemble a team to play Cartola FC, a fantasy soccer game from Brazil. It shows statistics about the teams that will face each other.",
+    "url": "https://atilacamurca.github.io/agregador-fc/",
+    "source": "https://github.com/atilacamurca/agregador-fc",
+    "tags": ["cartolafc", "fantasy soccer game", "statistics"]
   }
 ]
