@@ -14,10 +14,10 @@ Then create a Pull Request on this repository, once merged, it will rebuild the 
 {
   "id": Number,
   "name": String,
-  "description": String,
+  "description": String, // optional
   "url": String,
-  "source": String,
-  "tags": Array<String>
+  "source": String, // optional
+  "tags": Array<String> // optional
 }
 ```
 
