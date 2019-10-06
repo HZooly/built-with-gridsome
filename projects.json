@@ -30,5 +30,13 @@
     "url": "https://www.martinfrackerjr.com",
     "source": "https://github.com/towerism/personal-site",
     "tags": ["personal", "software", "javascript"]
+  },
+  {
+    "id": 5,
+    "name": "Tech Jr Podcast",
+    "description": "Website for the Tech Jr Podcast, a show about breaking into the tech industry and growing your skillset.",
+    "url": "https://techjr.dev",
+    "source": "https://github.com/mynar7/techjr",
+    "tags": ["podcast", "careeradvice", "juniordevs"]
   }
 ]
