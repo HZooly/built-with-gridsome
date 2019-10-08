@@ -38,5 +38,13 @@
     "url": "https://techjr.dev",
     "source": "https://github.com/mynar7/techjr",
     "tags": ["podcast", "careeradvice", "juniordevs"]
+  },
+  {
+    "id": 6,
+    "name": "Montreal Powerhouse",
+    "description": "E-commerce and blog website for the online coaching company Montreal Powerhouse",
+    "url": "https://www.montrealpowerhouse.com/",
+    "source": "https://github.com/f-elix/montreal-powerhouse",
+    "tags": ["ecommerce", "fitness", "coaching"]
   }
 ]
