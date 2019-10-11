@@ -46,5 +46,11 @@
     "url": "https://www.montrealpowerhouse.com/",
     "source": "https://github.com/f-elix/montreal-powerhouse",
     "tags": ["ecommerce", "fitness", "coaching"]
+  },
+  {
+   "id": 7,
+   "name": "Maciej Kulczewski - Product Designer & Frontend Developer",
+   "description": "Portfolio of Maciej Kulczewski",
+   "url": "https://maciejkulczewski.de"
   }
 ]
