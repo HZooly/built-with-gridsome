@@ -52,5 +52,14 @@
    "name": "Maciej Kulczewski - Product Designer & Frontend Developer",
    "description": "Portfolio of Maciej Kulczewski",
    "url": "https://maciejkulczewski.de"
+  },
+  {
+    "id": 8,
+    "name": "Gauz Technologies",
+    "description": "Professional web development and tech blog",
+    "url": "https://gauztech.com/",
+    "source": "https://github.com/gauztech",
+    "tags": ["web development","blog","portfolio"]
   }
+  
 ]
