@@ -48,10 +48,10 @@
     "tags": ["ecommerce", "fitness", "coaching"]
   },
   {
-   "id": 7,
-   "name": "Maciej Kulczewski - Product Designer & Frontend Developer",
-   "description": "Portfolio of Maciej Kulczewski",
-   "url": "https://maciejkulczewski.de"
+    "id": 7,
+    "name": "Maciej Kulczewski - Product Designer & Frontend Developer",
+    "description": "Portfolio of Maciej Kulczewski",
+    "url": "https://maciejkulczewski.de"
   },
   {
     "id": 8,
@@ -60,6 +60,12 @@
     "url": "https://gauztech.com/",
     "source": "https://github.com/gauztech",
     "tags": ["web development","blog","portfolio"]
+  },
+  {
+    "id": 9,
+    "name": "Synerg'licorne",
+    "description": "A French Communication Website made by Synerg'hetic Junior Entreprise",
+    "url": "https://licorne.synerghetic.net",
+    "tags": ["web development", "showcase"]
   }
-  
 ]
