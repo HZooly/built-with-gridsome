@@ -2,6 +2,7 @@
 .cache
 .DS_Store
 src/.temp
+static/img/[1-9].png
 node_modules
 dist
 .env

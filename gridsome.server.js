@@ -9,10 +9,12 @@ module.exports = function(api) {
     for (const project of projects) {
       try {
         await cw.file(project.url, `./static/img/${project.id}.png`, {
-          scaleFactor: 1
+          scaleFactor: 1,
+          timeout: 360
         });
         project.image = `${project.id}.png`;
       } catch (err) {
+        console.log(`Capture website error: project ${project.id}`, err)
         project.image =
           err.code === "EEXIST" ? `${project.id}.png` : "dummy.png";
       }
