@@ -1,5 +1,7 @@
 # Built with Gridsome
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de71dc2d-137d-4d12-9f21-16ef16dc3ef0/deploy-status)](https://app.netlify.com/sites/built-with-gridsome/deploys)
+
 **Built with Gridsome** is a showcase of projects made with [Gridsome](https://gridsome.org).
 
 ## Add a project
