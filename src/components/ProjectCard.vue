@@ -3,7 +3,11 @@
     class="project-card flex flex-col min-h-full overflow-hidden rounded shadow-lg border border-green-100"
   >
     <g-link :to="project.path">
-      <g-image class="border-b border-gray-500" :src="'/img/'+project.image" />
+      <!-- https://github.com/gridsome/gridsome/issues/292 -->
+      <g-image
+        class="border-b border-gray-500"
+        :src="require('!!assets-loader!~/assets/img/' + project.image)"
+      />
     </g-link>
     <div class="py-2 flex justify-between">
       <div id="project-name" class="mx-4">

@@ -8,7 +8,7 @@ module.exports = function(api) {
 
     for (const project of projects) {
       try {
-        await cw.file(project.url, `./static/img/${project.id}.png`, {
+        await cw.file(project.url, `./src/assets/img/${project.id}.png`, {
           scaleFactor: 1,
           timeout: 360
         });
