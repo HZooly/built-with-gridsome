@@ -18,7 +18,10 @@
           class="mx-1 bg-green-500 px-2 py-1 text-white rounded tracking-wider hover:font-bold"
         >Visit</a>
       </div>
-      <g-image class="mb-24 shadow-lg rounded" :src="'/img/'+$page.project.image" />
+      <g-image
+        class="mb-24 shadow-lg rounded"
+        :src="require('!!assets-loader!~/assets/img/' + $page.project.image)"
+      />
     </div>
   </Layout>
 </template>
