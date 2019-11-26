@@ -60,5 +60,13 @@
     "url": "https://gauztech.com/",
     "source": "https://github.com/gauztech",
     "tags": ["web development","blog","portfolio"]
+  },
+  {
+    "id": 9,
+    "name": "Pulsar",
+    "description": "The landing page of the Pulsar team",
+    "url": "http://pulsar.surge.sh/",
+    "source": "https://github.com/pulsardev",
+    "tags": ["web development", "portfolio"]
   }
 ]
