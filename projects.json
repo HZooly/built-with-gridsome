@@ -60,5 +60,13 @@
     "url": "https://gauztech.com/",
     "source": "https://github.com/gauztech",
     "tags": ["web development","blog","portfolio"]
+  },
+  {
+    "id": 9,
+    "name": "Iman Sugirman",
+    "description": "Personal website of a tutorial Laravel, Ruby on Rails, Wordpress, Cloud Server Indonesia Language",
+    "url": "https://imansugirman.com/",
+    "source": "https://github.com/bogordesaincom",
+    "tags": ["web development","blog"]
   }
 ]
