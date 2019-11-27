@@ -68,5 +68,13 @@
     "url": "https://imansugirman.com/",
     "source": "https://github.com/bogordesaincom",
     "tags": ["web development","blog"]
+  },
+  {
+    "id": 10,
+    "name": "Pulsar",
+    "description": "The landing page of the Pulsar team",
+    "url": "http://pulsar.surge.sh/",
+    "source": "https://github.com/pulsardev",
+    "tags": ["web development", "portfolio"]
   }
 ]
