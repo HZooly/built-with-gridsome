@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-wrap">
     <div
-      v-for="project in $page.projects.edges"
-      :key="project.node.id"
+      v-for="(project, index) in $page.projects.edges"
+      :key="index"
       class="my-4 px-2 w-full sm:w-1/2 md:w-1/2 md:my-4 md:px-4 lg:my-4 lg:px-4 lg:w-1/3"
     >
       <ProjectCard :project="project.node"/>

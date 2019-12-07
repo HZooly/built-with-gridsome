@@ -1,4 +1,5 @@
 const cw = require("capture-website");
+const crypto = require("crypto");
 
 const projects = require("./projects.json");
 
@@ -7,20 +8,18 @@ module.exports = function(api) {
     const contentTypeProjects = actions.addCollection("Project");
 
     for (const project of projects) {
+      const randomId = crypto.randomBytes(12).toString('hex');
       try {
-        await cw.file(project.url, `./src/assets/img/${project.id}.png`, {
+        await cw.file(project.url, `./src/assets/img/${randomId}.png`, {
           scaleFactor: 1,
           timeout: 360
         });
-        project.image = `${project.id}.png`;
+        project.image = `${randomId}.png`;
       } catch (err) {
-        console.log(`Capture website error: project ${project.id}`, err)
-        project.image =
-          err.code === "EEXIST" ? `${project.id}.png` : "dummy.png";
+        console.log(`Capture website error: project ${project.name}`, err);
       }
 
       contentTypeProjects.addNode({
-        id: project.id,
         name: project.name,
         image: project.image,
         description: project.description,

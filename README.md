@@ -14,7 +14,6 @@ Then create a Pull Request on this repository, once merged, it will rebuild the 
 
 ```json
 {
-  "id": Number,
   "name": String,
   "description": String, // optional
   "url": String,

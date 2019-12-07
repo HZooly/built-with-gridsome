@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Gridsome",
     "description": "Gridsome official website",
     "url": "https://gridsome.org",
@@ -8,7 +7,6 @@
     "tags": ["documentation"]
   },
   {
-    "id": 2,
     "name": "Built with Gridsome",
     "description": "Showcase of projects built with Gridsome",
     "url": "http://builtwithgridso.me",
@@ -16,7 +14,6 @@
     "tags": ["showcase"]
   },
   {
-    "id": 3,
     "name": "Agregador FC",
     "description": "Website to help assemble a team to play Cartola FC, a fantasy soccer game from Brazil. It shows statistics about the teams that will face each other.",
     "url": "https://atilacamurca.github.io/agregador-fc/",
@@ -24,7 +21,6 @@
     "tags": ["cartolafc", "fantasy soccer game", "statistics"]
   },
   {
-    "id": 4,
     "name": "Martin Fracker, Jr.",
     "description": "Display the projects Martin's worked on and promote his personal brand",
     "url": "https://www.martinfrackerjr.com",
@@ -32,7 +28,6 @@
     "tags": ["personal", "software", "javascript"]
   },
   {
-    "id": 5,
     "name": "Tech Jr Podcast",
     "description": "Website for the Tech Jr Podcast, a show about breaking into the tech industry and growing your skillset.",
     "url": "https://techjr.dev",
@@ -40,7 +35,6 @@
     "tags": ["podcast", "careeradvice", "juniordevs"]
   },
   {
-    "id": 6,
     "name": "Montreal Powerhouse",
     "description": "E-commerce and blog website for the online coaching company Montreal Powerhouse",
     "url": "https://www.montrealpowerhouse.com/",
@@ -48,13 +42,11 @@
     "tags": ["ecommerce", "fitness", "coaching"]
   },
   {
-    "id": 7,
     "name": "Maciej Kulczewski - Product Designer & Frontend Developer",
     "description": "Portfolio of Maciej Kulczewski",
     "url": "https://maciejkulczewski.de"
   },
   {
-    "id": 8,
     "name": "Gauz Technologies",
     "description": "Professional web development and tech blog",
     "url": "https://gauztech.com/",
@@ -62,7 +54,6 @@
     "tags": ["web development","blog","portfolio"]
   },
   {
-    "id": 9,
     "name": "Iman Sugirman",
     "description": "Personal website of a tutorial Laravel, Ruby on Rails, Wordpress, Cloud Server Indonesia Language",
     "url": "https://imansugirman.com/",
@@ -70,7 +61,6 @@
     "tags": ["web development","blog"]
   },
   {
-    "id": 10,
     "name": "Pulsar",
     "description": "The landing page of the Pulsar team",
     "url": "http://pulsar.surge.sh/",
