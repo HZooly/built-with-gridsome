@@ -7,8 +7,8 @@ module.exports = function(api) {
   api.loadSource(async actions => {
     const contentTypeProjects = actions.addCollection("Project");
 
-    for (const project of projects) {
-      const randomId = crypto.randomBytes(12).toString('hex');
+    for (const [index, project] of projects.entries()) {
+      const randomId = crypto.randomBytes(12).toString("hex");
       try {
         await cw.file(project.url, `./src/assets/img/${randomId}.png`, {
           scaleFactor: 1,
@@ -20,6 +20,7 @@ module.exports = function(api) {
       }
 
       contentTypeProjects.addNode({
+        id: index,
         name: project.name,
         image: project.image,
         description: project.description,
