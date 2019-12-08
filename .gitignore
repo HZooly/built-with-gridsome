@@ -2,7 +2,7 @@
 .cache
 .DS_Store
 src/.temp
-src/assets/img/[1-9]*.png
+src/assets/img/[a-zA-Z0-9]*.png
 node_modules
 dist
 .env
