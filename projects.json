@@ -73,5 +73,11 @@
     "url": "https://jamstack.mmorainville.now.sh/movies",
     "source": "https://github.com/mmorainville/chester",
     "tags": ["web development", "demo"]
+  },
+  {
+    "name": "mario.tours",
+    "description": "Mario Kart Tour companion site including daily ranking leaderboards, top tier items and much more!",
+    "url": "https://www.mario.tours/",
+    "tags": ["mario kart", "nintendo", "mobile", "games", "gaming"]
   }
 ]
