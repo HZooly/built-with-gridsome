@@ -61,20 +61,6 @@
     "tags": ["web development","blog"]
   },
   {
-    "name": "Pulsar",
-    "description": "The landing page of the Pulsar team",
-    "url": "http://pulsar.surge.sh/",
-    "source": "https://github.com/pulsardev",
-    "tags": ["web development", "portfolio"]
-  },
-  {
-    "name": "JAMstack demo",
-    "description": "A demo project for showcasing the JAMstack",
-    "url": "https://jamstack.mmorainville.now.sh/movies",
-    "source": "https://github.com/mmorainville/chester",
-    "tags": ["web development", "demo"]
-  },
-  {
     "name": "mario.tours",
     "description": "Mario Kart Tour companion site including daily ranking leaderboards, top tier items and much more!",
     "url": "https://www.mario.tours/",
