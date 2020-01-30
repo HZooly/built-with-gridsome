@@ -65,5 +65,12 @@
     "description": "Mario Kart Tour companion site including daily ranking leaderboards, top tier items and much more!",
     "url": "https://www.mario.tours/",
     "tags": ["mario kart", "nintendo", "mobile", "games", "gaming"]
+  },
+  {
+    "name": "Sarah Dayan - Software Engineer",
+    "description": "Portfolio of Sarah Dayan",
+    "url": "https://sarahdayan.dev/",
+    "source": "https://github.com/sarahdayan/sarahdayan.dev",
+    "tags": ["web development","blog","portfolio","software engineering", "front end"]
   }
 ]
