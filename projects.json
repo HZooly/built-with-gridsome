@@ -72,5 +72,11 @@
     "url": "https://sarahdayan.dev/",
     "source": "https://github.com/sarahdayan/sarahdayan.dev",
     "tags": ["web development","blog","portfolio","software engineering", "front end"]
+  },
+  {
+    "name": "Moving Pixels by Joran Quinten",
+    "description": "Image portfolio of Joran Quinten",
+    "url": "https://movingpixels.joranquinten.nl/",
+    "tags": ["photography","blog","portfolio"]
   }
 ]
