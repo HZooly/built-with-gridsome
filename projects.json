@@ -91,5 +91,12 @@
     "url": "https://docc-theme.netlify.com/",
     "source": "https://github.com/mrcrmn/docc",
     "tags": ["documentation"]
+  },
+  {
+    "name": "SmokeyFro",
+    "description": "The personal portfolio of Chris Rault (aka SmokeyFro), a front-end designer and occasional entrepreneur working remotely from South Africa.",
+    "url": "https://smokeyfro.com",
+    "source": "https://github.com/smokeyfro/SmokeyFro.com",
+    "tags": ["web development, portfolio, blog, tutorials, tailwindui, ghost, cockpit, markdown"]
   }
 ]
