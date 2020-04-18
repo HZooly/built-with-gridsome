@@ -14,11 +14,11 @@ Then create a Pull Request on this repository, once merged, it will rebuild the 
 
 ```json
 {
-  "name": String,
-  "description": String, // optional
-  "url": String,
-  "source": String, // optional
-  "tags": Array<String> // optional
+  "name": "Website name",
+  "description": "Optional description",
+  "url": "https://websi.te",
+  "source": "https://optional.sources"
+  "tags": ['portfolio', 'web', 'optional']
 }
 ```
 
