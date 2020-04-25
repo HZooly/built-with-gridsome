@@ -105,5 +105,12 @@
     "url": "https://iamvue.com",
     "source": "https://github.com/devsourceid/iamvue",
     "tags": ["web development, portfolio, blog, tutorials, markdown"]
+  },
+  {
+    "name": "Thevueguy",
+    "description": "VueJS tutorials, courses, videos and tips.",
+    "url": "https://thevueguy.com",
+    "source": "https://github.com/thevueguy",
+    "tags": ["web development","blog","vuejs","gridsome","jamstack"]
   }
 ]
