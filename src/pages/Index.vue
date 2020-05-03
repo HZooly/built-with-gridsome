@@ -1,14 +1,17 @@
 <template>
   <Layout>
     <div class="flex justify-end">
-      <span>
-        There are currently
-        <b>{{ $page.projects.totalCount }}</b> Gridsome websites
-        <a
-          class="transition duration-300 ease-in text-white bg-green-600 hover:bg-green-800 px-2 py-1 rounded-sm font-bold tracking-wider"
-          href="https://github.com/HZooly/built-with-gridsome#add-a-project"
-        >add yours</a>
-      </span>
+      <div class="px-4">
+        <span>
+          There are currently
+          <b>{{ $page.projects.totalCount }}</b> Gridsome websites,
+          <a
+            id="add-button"
+            class="relative inline-block px-1 transition duration-300 ease-in text-green-600 hover:bg-text-800 font-bold tracking-wider"
+            href="https://github.com/HZooly/built-with-gridsome#add-a-project"
+          >add yours</a>
+        </span>
+      </div>
     </div>
     <ProjectsList :projects="$page.projects.edges" />
     <div class="flex justify-center my-4">
@@ -67,5 +70,18 @@ query Projects($page: Int) {
 
 .pager-link:hover:not(.active) {
   @apply text-white bg-green-400 font-bold rounded-sm;
+}
+
+#add-button:after {
+  @apply bottom-0 block absolute bg-green-600;
+  content: "";
+  height: 2px;
+  left: 50%;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#add-button:hover:after {
+  @apply w-full left-0;
 }
 </style>
