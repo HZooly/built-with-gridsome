@@ -18,7 +18,7 @@ Then create a Pull Request on this repository, once merged, it will rebuild the 
   "description": "Optional description",
   "url": "https://websi.te",
   "source": "https://optional.sources",
-  "tags": ['portfolio', 'web', 'optional']
+  "tags": ["portfolio", "web", "optional"]
 }
 ```
 
