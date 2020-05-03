@@ -5,15 +5,35 @@
         <a href="https://github.com/HZooly/built-with-gridsome#add-a-project">Add your site</a>
       </button>
     </div>
-      <ProjectsList :projects="$page.projects.edges" />
+    <ProjectsList :projects="$page.projects.edges" />
+    <div class="flex justify-center my-4">
+      <Pager :info="$page.projects.pageInfo" linkClass="pager-link" class="pager" />
+    </div>
   </Layout>
 </template>
 
+<script>
+import { Pager } from "gridsome";
+import ProjectsList from "@/components/ProjectsList";
+
+export default {
+  name: "Index",
+  components: {
+    ProjectsList,
+    Pager
+  }
+};
+</script>
+
 <page-query>
-query Projects {
-  projects: allProject(sortBy: "id", order: ASC) {
+query Projects($page: Int) {
+  projects: allProject(perPage: 6, page: $page, sortBy: "id", order: ASC) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
-      node { 
+      node {
         id
         name
         image
@@ -26,13 +46,20 @@ query Projects {
 }
 </page-query>
 
-<script>
-import ProjectsList from "@/components/ProjectsList";
+<style scoped>
+.pager {
+  @apply inline-block w-full text-center;
+}
 
-export default {
-  name: "Index",
-  components: {
-    ProjectsList
-  }
-};
-</script>
+.pager-link {
+  @apply text-center no-underline text-green-400 px-2 py-1;
+}
+
+.pager-link.active {
+  @apply font-bold text-red-300;
+}
+
+.pager-link:hover:not(.active) {
+  @apply text-white bg-green-400 font-bold rounded-sm;
+}
+</style>
