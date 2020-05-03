@@ -1,9 +1,14 @@
 <template>
   <Layout>
     <div class="flex justify-end">
-      <button class="bg-green-500 text-white mx-4 py-2 px-3 shadow-lg rounded hover:bg-green-400">
-        <a href="https://github.com/HZooly/built-with-gridsome#add-a-project">Add your site</a>
-      </button>
+      <span>
+        There are currently
+        <b>{{ $page.projects.totalCount }}</b> Gridsome websites
+        <a
+          class="transition duration-300 ease-in text-white bg-green-600 hover:bg-green-800 px-2 py-1 rounded-sm font-bold tracking-wider"
+          href="https://github.com/HZooly/built-with-gridsome#add-a-project"
+        >add yours</a>
+      </span>
     </div>
     <ProjectsList :projects="$page.projects.edges" />
     <div class="flex justify-center my-4">
@@ -32,6 +37,7 @@ query Projects($page: Int) {
       totalPages
       currentPage
     }
+    totalCount
     edges {
       node {
         id
@@ -56,7 +62,7 @@ query Projects($page: Int) {
 }
 
 .pager-link.active {
-  @apply font-bold text-red-300;
+  @apply font-bold text-green-800;
 }
 
 .pager-link:hover:not(.active) {
