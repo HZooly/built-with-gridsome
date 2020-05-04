@@ -119,5 +119,19 @@
     "url": "https://upnext.com.au",
     "source": "",
     "tags": ["events","australia","things to do","what's on","sydney"]
-  }  
+  },
+  {
+    "name": "1896 Gallery",
+    "description": "Website for Scottish art gallery showing art on display.",
+    "url": "https://1896gallery.com",
+    "source": "",
+    "tags": ["art", "design", "wordpress"]
+  },
+  {
+    "name": "Potter Tree Consultancy",
+    "description": "Brochure and project website for Scottish Arboriculturalist",
+    "url": "https://pottertreeconsultancy.com",
+    "source": "",
+    "tags": ["trees", "wordpress"]
+  }
 ]
