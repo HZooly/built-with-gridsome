@@ -51,14 +51,14 @@
     "description": "Professional web development and tech blog",
     "url": "https://gauztech.com/",
     "source": "https://github.com/gauztech",
-    "tags": ["web development","blog","portfolio"]
+    "tags": ["web development", "blog", "portfolio"]
   },
   {
     "name": "Iman Sugirman",
     "description": "Personal website of a tutorial Laravel, Ruby on Rails, Wordpress, Cloud Server Indonesia Language",
     "url": "https://imansugirman.com/",
     "source": "https://github.com/bogordesaincom",
-    "tags": ["web development","blog"]
+    "tags": ["web development", "blog"]
   },
   {
     "name": "mario.tours",
@@ -71,20 +71,26 @@
     "description": "Portfolio of Sarah Dayan",
     "url": "https://sarahdayan.dev/",
     "source": "https://github.com/sarahdayan/sarahdayan.dev",
-    "tags": ["web development","blog","portfolio","software engineering", "front end"]
+    "tags": [
+      "web development",
+      "blog",
+      "portfolio",
+      "software engineering",
+      "front end"
+    ]
   },
   {
     "name": "Moving Pixels by Joran Quinten",
     "description": "Image portfolio of Joran Quinten",
     "url": "https://movingpixels.joranquinten.nl/",
-    "tags": ["photography","blog","portfolio"]
+    "tags": ["photography", "blog", "portfolio"]
   },
   {
     "name": "Design Systems Repo",
     "description": "A frequently updated collection of Design System examples, articles, tools and talks.",
     "url": "https://designsystemsrepo.com/",
-    "tags": ["design system","design","code"]
-  }, 
+    "tags": ["design system", "design", "code"]
+  },
   {
     "name": "DOCC",
     "description": "A starter documentation theme for Gridsome. Featuring instant search, great navigation and a dark mode!",
@@ -97,7 +103,9 @@
     "description": "The personal portfolio of Chris Rault (aka SmokeyFro), a front-end designer and occasional entrepreneur working remotely from South Africa.",
     "url": "https://smokeyfro.com",
     "source": "https://github.com/smokeyfro/SmokeyFro.com",
-    "tags": ["web development, portfolio, blog, tutorials, tailwindui, ghost, cockpit, markdown"]
+    "tags": [
+      "web development, portfolio, blog, tutorials, tailwindui, ghost, cockpit, markdown"
+    ]
   },
   {
     "name": "IamVue",
@@ -111,14 +119,14 @@
     "description": "VueJS tutorials, courses, videos and tips.",
     "url": "https://thevueguy.com",
     "source": "https://github.com/thevueguy",
-    "tags": ["web development","blog","vuejs","gridsome","jamstack"]
+    "tags": ["web development", "blog", "vuejs", "gridsome", "jamstack"]
   },
   {
     "name": "upnext.com.au",
     "description": "Fun and interesting things to do in Australia.",
     "url": "https://upnext.com.au",
     "source": "",
-    "tags": ["events","australia","things to do","what's on","sydney"]
+    "tags": ["events", "australia", "things to do", "what's on", "sydney"]
   },
   {
     "name": "1896 Gallery",
@@ -131,5 +139,17 @@
     "description": "Brochure and project website for Scottish Arboriculturalist",
     "url": "https://pottertreeconsultancy.com",
     "tags": ["trees", "wordpress"]
+  },
+  {
+    "name": "Bio X Cell",
+    "description": "Ecommerce website for antibody manufacturer in New Hampshire, US.",
+    "url": "https://bxcell.com",
+    "tags": ["ecommerce", "antibodies", "wordpress"]
+  },
+  {
+    "name": "IFFBoston",
+    "description": "Website for the Independent Film Festival Boston.",
+    "url": "https://iffboston.org",
+    "tags": ["film", "festivals", "events", "wordpress"]
   }
 ]
