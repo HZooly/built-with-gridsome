@@ -153,9 +153,9 @@
     "tags": ["film", "festivals", "events", "wordpress"]
   },
   {
-  "name": "Narrandum",
-  "description": "Narrandum is a customer journey mapping tool that's simple, fast and fun. Create personas and journey maps for free.",
-  "url": "https://narrandum.com",
-  "tags": ["saas", "web", "design"]
-}
+    "name": "Narrandum",
+    "description": "Narrandum is a customer journey mapping tool that's simple, fast and fun. Create personas and journey maps for free.",
+    "url": "https://narrandum.com",
+    "tags": ["saas", "web", "design"]
+  }
 ]
