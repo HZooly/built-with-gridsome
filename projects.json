@@ -159,15 +159,15 @@
     "tags": ["saas", "web", "design"]
   },
   {
-  "name": "The Lockdown",
-  "description": "A Fan Written Seinfeld script during COVID-19",
-  "url": "https://thelockdown.netlify.app",
-  "tags": ["script", "tailwindcss", "seinfeld", "tv show"]
-},
+    "name": "The Lockdown",
+    "description": "A Fan Written Seinfeld script during COVID-19",
+    "url": "https://thelockdown.netlify.app",
+    "tags": ["script", "tailwindcss", "seinfeld", "tv show"]
+  },
   {
-  "name": "lindahl studios",
-  "description": "a small two man/brother development shop",
-  "url": "https://lindahlstudios.com",
-  "tags": ["portfolio", "web", "agency"]
-}
+    "name": "Lindahl Studios",
+    "description": "A small two man/brother development shop",
+    "url": "https://lindahlstudios.com",
+    "tags": ["portfolio", "web", "agency"]
+  }
 ]
