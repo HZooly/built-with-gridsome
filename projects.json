@@ -174,6 +174,7 @@
     "name": "Gift Egwuenu",
     "description": "Personal website for Gift Egwuenu",
     "url": "https://giftegwuenu.com",
+     "source": "https://github.com/lauragift21/giftegwuenu.dev",
     "tags": ["portfolio", "frontend engineer", "jamstack", "tailwindcss"]
   }
 ]
