@@ -169,5 +169,12 @@
     "description": "A small two man/brother development shop",
     "url": "https://lindahlstudios.com",
     "tags": ["portfolio", "web", "agency"]
+  },
+   {
+    "name": "Gift Egwuenu",
+    "description": "Personal website for Gift Egwuenu",
+    "url": "https://giftegwuenu.com",
+     "source": "https://github.com/lauragift21/giftegwuenu.dev",
+    "tags": ["portfolio", "frontend engineer", "jamstack", "tailwindcss"]
   }
 ]
