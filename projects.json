@@ -170,11 +170,18 @@
     "url": "https://lindahlstudios.com",
     "tags": ["portfolio", "web", "agency"]
   },
-   {
+  {
     "name": "Gift Egwuenu",
     "description": "Personal website for Gift Egwuenu",
     "url": "https://giftegwuenu.com",
-     "source": "https://github.com/lauragift21/giftegwuenu.dev",
+    "source": "https://github.com/lauragift21/giftegwuenu.dev",
     "tags": ["portfolio", "frontend engineer", "jamstack", "tailwindcss"]
+  },
+  {
+    "name": "Michael Pumo",
+    "description": "Portfolio of freelance UI developer in London, UK",
+    "url": "https://michaelpumo.com",
+    "source": "https://github.com/michaelpumo/michaelpumo",
+    "tags": ["portfolio", "frontend", "javascript", "vue", "freelance", "london"]
   }
 ]
