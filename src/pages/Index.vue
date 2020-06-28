@@ -26,6 +26,9 @@ import ProjectsList from "@/components/ProjectsList";
 
 export default {
   name: "Index",
+  metaInfo: {
+    title: "Home"
+  },
   components: {
     ProjectsList,
     Pager

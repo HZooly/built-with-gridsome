@@ -37,3 +37,13 @@ query Project($id: ID!) {
   }
 }
 </page-query>
+
+<script>
+export default {
+  metaInfo () {
+    return {
+      title: this.$page.project.name
+    }
+  }
+}
+</script>
