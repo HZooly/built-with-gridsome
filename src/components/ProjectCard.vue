@@ -19,7 +19,7 @@
           :href="project.source"
           target="_blank"
           rel="noopener noreferrer"
-          class="mx-2 text-green-500"
+          class="mx-2 text-green-500 hover:text-green-400"
         >
           <font-awesome-icon :icon="['far', 'file-code']" />
         </a>
@@ -27,7 +27,7 @@
           :href="project.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="mx-2 text-green-500"
+          class="mx-2 text-green-500 hover:text-green-400"
         >
           <font-awesome-icon icon="external-link-alt" />
         </a>

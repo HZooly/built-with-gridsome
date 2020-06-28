@@ -9,13 +9,13 @@
           :href="$page.project.source"
           target="_blank"
           rel="noopener noreferrer"
-          class="mx-1 bg-green-500 px-2 py-1 text-white rounded tracking-wider hover:font-bold z-50"
+          class="mx-1 bg-green-500 px-2 py-1 text-white rounded tracking-wider hover:bg-green-400 z-50"
         >Source</a>
         <a
           :href="$page.project.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="mx-1 bg-green-500 px-2 py-1 text-white rounded tracking-wider hover:font-bold"
+          class="mx-1 bg-green-500 px-2 py-1 text-white rounded tracking-wider hover:bg-green-400"
         >Visit</a>
       </div>
       <g-image
