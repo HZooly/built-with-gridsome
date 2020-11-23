@@ -189,5 +189,11 @@
     "description": "Corporate website for HeartFlow, Inc.",
     "url": "https://www.heartflow.com/",
     "tags": ["corporate", "healthcare", "medical"]
+  },
+  {
+    "name": "Geek.I.Am",
+    "description": "Community network-based education and social network for software professionals",
+    "url": "https://geekiam.io",
+    "tags": ["developer", "education", "code", "software engineering", "social media", "networking", "web development"]
   }
 ]
