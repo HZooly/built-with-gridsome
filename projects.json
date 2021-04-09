@@ -189,5 +189,11 @@
     "description": "Corporate website for HeartFlow, Inc.",
     "url": "https://www.heartflow.com/",
     "tags": ["corporate", "healthcare", "medical"]
-  }
+  },
+  {
+    "name": "Klaus",
+    "description": "Klaus is a conversation review tool for support teams.",
+    "url": "https://www.klausapp.com",
+    "tags": ["web", "blog", "i18n", "wordpress", "tailwindcss", "saas", "cat"]
+}
 ]
