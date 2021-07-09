@@ -189,5 +189,11 @@
     "description": "Corporate website for HeartFlow, Inc.",
     "url": "https://www.heartflow.com/",
     "tags": ["corporate", "healthcare", "medical"]
+  },
+  {
+    "name": "Rhan Miano",
+    "description": "Helps in changing the world by developing wonderful experiences on the web",
+    "url": "https://rhanmiano.me",
+    "tags": ["portfolio", "web developer", "full stack web developer", "software engineer", "taguig", "philippines"]
   }
 ]
